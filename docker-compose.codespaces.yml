@@ -13,4 +13,5 @@ services:
     init: true
 
 volumes:
+  gems:
   history:
