@@ -3,5 +3,5 @@
   "service": "code",
   "workspaceFolder": "/workspaces/project",
   "runServices": ["code"],
-  "postCreateCommand": "sudo chown -R $USER:$USER $(pwd)"
+  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) $(pwd)"
 }
