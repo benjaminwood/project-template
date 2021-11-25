@@ -5,7 +5,6 @@ services:
   code:
     image: ghcr.io/benjaminwood/ben-dev-env:main
     volumes:
-      - ./:/workspaces/project
       - gems:/gems
       - /var/run/docker.sock:/var/run/docker-host.sock
       - history:/history
