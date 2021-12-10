@@ -2,6 +2,5 @@
   "dockerComposeFile": ["docker-compose.yml", "docker-compose.codespaces.yml"],
   "service": "code",
   "workspaceFolder": "/workspaces/project",
-  "runServices": ["code"],
-  "postCreateCommand": "sudo chown -R $(id -u):$(id -g) $(pwd)"
+  "runServices": ["code"]
 }
